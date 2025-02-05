@@ -1,0 +1,29 @@
+/* BlogView.css */
+
+/* Centering and setting max width */
+.blog-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.blog-title {
+    font-weight: bold;
+}
+
+/* Blog body styling */
+.blog-body {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Loading & Error Messages */
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
